@@ -2,6 +2,7 @@
   display: none;
 }
 
+/*navigation button*/
 .navigation__button {
   position: fixed;
   top: 0;
@@ -29,7 +30,7 @@
     right: 3.5rem;
   }
 }
-
+/*full page nav when expanded's background*/
 .navigation__background {
   position: fixed;
   top: -100px;
@@ -39,8 +40,8 @@
   border-radius: 50%;
   background: linear-gradient(
     0deg,
-    rgba(12, 32, 34, 0.9),
-    rgba(12, 32, 34, 0.9)
+    rgb(20, 37, 63, 0.9),
+    rgba(13, 27, 49, 0.9)
   );
   filter: blur(10px);
   z-index: 200;
@@ -75,7 +76,7 @@
 .navigation__list {
   text-align: center;
   list-style: none;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .navigation__item {
